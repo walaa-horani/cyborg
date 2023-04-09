@@ -1,0 +1,29 @@
+.hero-main{
+    background-color: #27292a;
+    color: white;
+    border-radius: 25px;
+    padding:var(--padding-primary);
+    background-image: url('../../assets/img/banner-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-text{
+    max-width: 500px;
+}
+.hero-title{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: var(--margin-primary)/2;
+    font-weight: 900;
+}
+.hero-title em{
+    font-style: normal;
+    color: #ec6090;
+}
+.hero-sub{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: calc(var(--margin-primary)/2);
+}

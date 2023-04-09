@@ -1,0 +1,16 @@
+
+.card-wrapper{
+    background-color: var(--color-darkest);
+    border-radius: calc(var(--border-radius-primary));
+    padding: calc(var(--padding-primary)/4);
+    margin: calc(var(--margin-primary)/5);
+    
+  
+}
+
+
+.most-popular-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

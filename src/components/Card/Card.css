@@ -1,0 +1,15 @@
+.most-popular-item-img{
+    width: 100%;
+    border-radius: calc(var(--border-radius-primary)/4);
+    margin-bottom: calc(var(--margin-primary)/2);
+}
+.most-popular-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+.most-popular-item-title{
+    font-size: 14px;
+}
+.most-popular-item{
+    flex: 1 25%;
+}
